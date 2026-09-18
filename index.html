@@ -1,0 +1,961 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <meta name="description"
+    content="Bizimana Advanced Portfolio - Networking, Internet Technology, Wireless, CCTV, Python, C++, Cybersecurity and IT.">
+
+  <meta name="author" content="Bizimana Fabrice">
+
+  <title>Bizimana.tech</title>
+
+  <link rel="icon" type="image/svg+xml" href="https://upload.wikimedia.org/wikipedia/commons/0/04/ChatGPT_logo.svg">
+  <link rel="alternate icon" type="image/png" href="https://upload.wikimedia.org/wikipedia/commons/thumb/0/04/ChatGPT_logo.svg/1024px-ChatGPT_logo.svg.png">
+  
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <!-- ================= NAVBAR ================= -->
+
+  <header class="navbar">
+
+    <a href="#home" class="logo">
+      <span class="logo-icon">B</span>
+      <span>
+        BIZIMANA
+        <small>ADVANCED PORTFOLIO</small>
+      </span>
+    </a>
+
+    <button class="menu-btn" id="menuBtn">☰</button>
+
+    <nav id="navMenu">
+      <a href="#home">Home</a>
+      <a href="#about">About</a>
+      <a href="#courses">Courses</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+    </nav>
+
+  </header>
+
+
+  <!-- ================= HERO ================= -->
+
+  <main>
+
+    <section id="home" class="hero">
+
+      <div class="hero-content">
+
+        <div class="status">
+          <span></span>
+          AVAILABLE FOR TECHNOLOGY PROJECTS
+        </div>
+
+        <p class="eyebrow">NETWORKING • INTERNET • SYSTEMS • PROGRAMMING</p>
+
+        <h1>
+          Connecting
+          <span>Networks.</span>
+          <br>
+          Building Systems.
+          <br>
+          Creating Technology.
+        </h1>
+
+        <p class="hero-text">
+          Welcome to my professional technology portfolio.
+          I am focused on Networking and Internet Technology,
+          Wireless Networks, CCTV Systems, Programming,
+          Cybersecurity and modern IT solutions.
+        </p>
+
+        <div class="hero-buttons">
+          <a href="#courses" class="btn primary">
+            Explore Courses →
+          </a>
+
+          <a href="#projects" class="btn secondary">
+            View Projects
+          </a>
+        </div>
+
+        <div class="hero-stats">
+
+          <div>
+            <strong>10+</strong>
+            <span>Technology Areas</span>
+          </div>
+
+          <div>
+            <strong>20+</strong>
+            <span>Learning Modules</span>
+          </div>
+
+          <div>
+            <strong>∞</strong>
+            <span>Ideas & Projects</span>
+          </div>
+
+        </div>
+
+      </div>
+
+
+      <!-- NETWORK GRAPHIC -->
+
+      <div class="network-visual">
+
+        <div class="circle circle-one"></div>
+        <div class="circle circle-two"></div>
+        <div class="circle circle-three"></div>
+
+        <div class="connection line-one"></div>
+        <div class="connection line-two"></div>
+        <div class="connection line-three"></div>
+        <div class="connection line-four"></div>
+
+        <div class="network-node center">🌐</div>
+        <div class="network-node node-one">📡</div>
+        <div class="network-node node-two">💻</div>
+        <div class="network-node node-three">📹</div>
+        <div class="network-node node-four">🔐</div>
+
+        <div class="network-info">
+          <span class="online-dot"></span>
+          SYSTEM ONLINE
+          <small>RWAMAGANA • RWANDA</small>
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <!-- ================= ABOUT ================= -->
+
+    <section id="about" class="section">
+
+      <div class="section-title">
+        <p class="eyebrow">ABOUT ME</p>
+        <h2>Technology with a practical mindset.</h2>
+      </div>
+
+      <div class="about-grid">
+
+        <div class="about-text">
+
+          <p>
+            I am <strong>Bizimana Fabrice</strong>, a technology-focused
+            learner and aspiring IT professional based in
+            Rwamagana, Mwulire, Rwanda.
+          </p>
+
+          <p>
+            My main area of interest is Networking and Internet
+            Technology, including network infrastructure,
+            wireless communication, CCTV systems, programming,
+            cybersecurity and system administration.
+          </p>
+
+          <p>
+            My goal is to continuously develop practical technical
+            skills and transform knowledge into useful systems,
+            projects and solutions.
+          </p>
+
+          <a href="#contact" class="btn primary">
+            Contact Me →
+          </a>
+
+        </div>
+
+
+        <div class="profile-card">
+
+          <div class="profile-avatar">
+            BF
+          </div>
+
+          <h3>Bizimana Fabrice</h3>
+
+          <p>Networking & IT Technology</p>
+
+          <div class="profile-line">
+            📍 Rwamagana, Mwulire, Rwanda
+          </div>
+
+          <div class="profile-line">
+            ✉️ bizimanafabrice096@gmail.com
+          </div>
+
+          <div class="profile-line">
+            📱 0794513444
+          </div>
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <!-- ================= COURSES ================= -->
+
+    <section id="courses" class="section courses-section">
+
+      <div class="section-title center">
+
+        <p class="eyebrow">LEARNING HUB</p>
+
+        <h2>Advanced Technology Courses</h2>
+
+        <p>
+          Explore my technology subjects and open a Deep Course
+          to view its learning roadmap.
+        </p>
+
+      </div>
+
+
+      <div class="course-search">
+
+        <input
+          type="text"
+          id="courseSearch"
+          placeholder="Search courses... e.g. Python, CCTV, Wireless"
+        >
+
+      </div>
+
+
+      <div class="course-grid" id="courseGrid">
+
+
+        <!-- NETWORKING -->
+
+        <article
+          class="course-card"
+          data-search="networking internet tcp ip osi routing switching subnetting"
+        >
+
+          <div class="course-icon">🌐</div>
+
+          <div class="course-content">
+
+            <span class="course-tag">CORE</span>
+
+            <h3>Networking & Internet Technology</h3>
+
+            <p>
+              Learn TCP/IP, OSI, addressing, subnetting,
+              routing, switching, DNS and DHCP.
+            </p>
+
+            <button
+              class="deep-btn"
+              onclick="openCourse('networking')"
+            >
+              Deep Course →
+            </button>
+
+          </div>
+
+        </article>
+
+
+        <!-- WIRELESS -->
+
+        <article
+          class="course-card"
+          data-search="wireless wifi wi-fi access point radio network"
+        >
+
+          <div class="course-icon">📡</div>
+
+          <div class="course-content">
+
+            <span class="course-tag">WIRELESS</span>
+
+            <h3>Wireless Networking</h3>
+
+            <p>
+              Wi-Fi architecture, access points,
+              wireless security and point-to-point networks.
+            </p>
+
+            <button
+              class="deep-btn"
+              onclick="openCourse('wireless')"
+            >
+              Deep Course →
+            </button>
+
+          </div>
+
+        </article>
+
+
+        <!-- CCTV -->
+
+        <article
+          class="course-card"
+          data-search="cctv camera ip camera nvr dvr surveillance security"
+        >
+
+          <div class="course-icon">📹</div>
+
+          <div class="course-content">
+
+            <span class="course-tag">SURVEILLANCE</span>
+
+            <h3>CCTV & IP Camera Systems</h3>
+
+            <p>
+              IP cameras, NVR, DVR, PoE,
+              surveillance networks and monitoring.
+            </p>
+
+            <button
+              class="deep-btn"
+              onclick="openCourse('cctv')"
+            >
+              Deep Course →
+            </button>
+
+          </div>
+
+        </article>
+
+
+        <!-- PYTHON -->
+
+        <article
+          class="course-card"
+          data-search="python programming automation code networking"
+        >
+
+          <div class="course-icon">🐍</div>
+
+          <div class="course-content">
+
+            <span class="course-tag">PROGRAMMING</span>
+
+            <h3>Python Programming</h3>
+
+            <p>
+              Python fundamentals, automation,
+              networking scripts and practical applications.
+            </p>
+
+            <button
+              class="deep-btn"
+              onclick="openCourse('python')"
+            >
+              Deep Course →
+            </button>
+
+          </div>
+
+        </article>
+
+
+        <!-- C++ -->
+
+        <article
+          class="course-card"
+          data-search="c c++ cpp programming algorithms oop"
+        >
+
+          <div class="course-icon">⚙️</div>
+
+          <div class="course-content">
+
+            <span class="course-tag">PROGRAMMING</span>
+
+            <h3>C / C++ Programming</h3>
+
+            <p>
+              Programming fundamentals, OOP,
+              algorithms and data structures.
+            </p>
+
+            <button
+              class="deep-btn"
+              onclick="openCourse('cpp')"
+            >
+              Deep Course →
+            </button>
+
+          </div>
+
+        </article>
+
+
+        <!-- CYBERSECURITY -->
+
+        <article
+          class="course-card"
+          data-search="cybersecurity cyber security firewall network security"
+        >
+
+          <div class="course-icon">🔐</div>
+
+          <div class="course-content">
+
+            <span class="course-tag">SECURITY</span>
+
+            <h3>Cybersecurity Fundamentals</h3>
+
+            <p>
+              Security principles, authentication,
+              firewalls, access control and defense.
+            </p>
+
+            <button
+              class="deep-btn"
+              onclick="openCourse('cybersecurity')"
+            >
+              Deep Course →
+            </button>
+
+          </div>
+
+        </article>
+
+
+        <!-- LINUX -->
+
+        <article
+          class="course-card"
+          data-search="linux operating system administration terminal server"
+        >
+
+          <div class="course-icon">🐧</div>
+
+          <div class="course-content">
+
+            <span class="course-tag">SYSTEMS</span>
+
+            <h3>Linux & System Administration</h3>
+
+            <p>
+              Linux commands, permissions, processes,
+              services and network administration.
+            </p>
+
+            <button
+              class="deep-btn"
+              onclick="openCourse('linux')"
+            >
+              Deep Course →
+            </button>
+
+          </div>
+
+        </article>
+
+
+        <!-- WIRESHARK -->
+
+        <article
+          class="course-card"
+          data-search="wireshark packet analysis network analyzer"
+        >
+
+          <div class="course-icon">🔎</div>
+
+          <div class="course-content">
+
+            <span class="course-tag">ANALYSIS</span>
+
+            <h3>Wireshark & Network Analysis</h3>
+
+            <p>
+              Packet capture, filtering,
+              protocol analysis and troubleshooting.
+            </p>
+
+            <button
+              class="deep-btn"
+              onclick="openCourse('wireshark')"
+            >
+              Deep Course →
+            </button>
+
+          </div>
+
+        </article>
+
+
+        <!-- WEB -->
+
+        <article
+          class="course-card"
+          data-search="web internet html css javascript http dns api"
+        >
+
+          <div class="course-icon">💻</div>
+
+          <div class="course-content">
+
+            <span class="course-tag">WEB</span>
+
+            <h3>Internet & Web Technologies</h3>
+
+            <p>
+              HTTP, HTTPS, DNS, APIs,
+              web architecture and hosting.
+            </p>
+
+            <button
+              class="deep-btn"
+              onclick="openCourse('web')"
+            >
+              Deep Course →
+            </button>
+
+          </div>
+
+        </article>
+
+
+        <!-- IOT -->
+
+        <article
+          class="course-card"
+          data-search="iot internet things sensors smart devices"
+        >
+
+          <div class="course-icon">🤖</div>
+
+          <div class="course-content">
+
+            <span class="course-tag">EMERGING</span>
+
+            <h3>IoT & Connected Systems</h3>
+
+            <p>
+              Sensors, devices, communication,
+              automation and connected systems.
+            </p>
+
+            <button
+              class="deep-btn"
+              onclick="openCourse('iot')"
+            >
+              Deep Course →
+            </button>
+
+          </div>
+
+        </article>
+
+      </div>
+
+    </section>
+
+
+    <!-- ================= SKILLS ================= -->
+
+    <section id="skills" class="section">
+
+      <div class="section-title">
+
+        <p class="eyebrow">TECHNICAL SKILLS</p>
+
+        <h2>My Technology Stack</h2>
+
+      </div>
+
+      <div class="skills">
+
+        <span>🌐 TCP/IP</span>
+        <span>📡 Wi-Fi</span>
+        <span>🔀 Routing</span>
+        <span>🔀 Switching</span>
+        <span>🧮 Subnetting</span>
+        <span>📹 CCTV</span>
+        <span>🐍 Python</span>
+        <span>⚙️ C++</span>
+        <span>🐧 Linux</span>
+        <span>🔐 Cybersecurity</span>
+        <span>🔎 Wireshark</span>
+        <span>💻 HTML</span>
+        <span>🎨 CSS</span>
+        <span>⚡ JavaScript</span>
+        <span>🤖 IoT</span>
+        <span>🖥️ System Administration</span>
+
+      </div>
+
+    </section>
+
+
+    <!-- ================= PROJECTS ================= -->
+
+    <section id="projects" class="section projects-section">
+
+      <div class="section-title center">
+
+        <p class="eyebrow">PRACTICAL WORK</p>
+
+        <h2>Projects & Technology Labs</h2>
+
+      </div>
+
+
+      <div class="project-grid">
+
+        <article class="project-card">
+
+          <span class="project-number">01</span>
+
+          <div class="project-icon">🌐</div>
+
+          <h3>Small Office Network</h3>
+
+          <p>
+            Network design including addressing,
+            switching, DHCP, DNS and troubleshooting.
+          </p>
+
+          <span class="project-label">NETWORKING</span>
+
+        </article>
+
+
+        <article class="project-card">
+
+          <span class="project-number">02</span>
+
+          <div class="project-icon">📡</div>
+
+          <h3>Wireless Network Plan</h3>
+
+          <p>
+            Wireless coverage planning,
+            access point placement and security.
+          </p>
+
+          <span class="project-label">WIRELESS</span>
+
+        </article>
+
+
+        <article class="project-card">
+
+          <span class="project-number">03</span>
+
+          <div class="project-icon">📹</div>
+
+          <h3>IP CCTV Architecture</h3>
+
+          <p>
+            IP camera, PoE, NVR and
+            surveillance network architecture.
+          </p>
+
+          <span class="project-label">CCTV</span>
+
+        </article>
+
+
+        <article class="project-card">
+
+          <span class="project-number">04</span>
+
+          <div class="project-icon">🐍</div>
+
+          <h3>Python Network Toolkit</h3>
+
+          <p>
+            Small Python utilities for
+            network and IT automation.
+          </p>
+
+          <span class="project-label">PYTHON</span>
+
+        </article>
+
+
+        <article class="project-card">
+
+          <span class="project-number">05</span>
+
+          <div class="project-icon">🔎</div>
+
+          <h3>Packet Analysis Lab</h3>
+
+          <p>
+            Network packet capture,
+            filtering and protocol analysis.
+          </p>
+
+          <span class="project-label">WIRESHARK</span>
+
+        </article>
+
+
+        <article class="project-card">
+
+          <span class="project-number">06</span>
+
+          <div class="project-icon">🔐</div>
+
+          <h3>Secure Network Blueprint</h3>
+
+          <p>
+            Conceptual network security
+            architecture and defensive controls.
+          </p>
+
+          <span class="project-label">SECURITY</span>
+
+        </article>
+
+      </div>
+
+    </section>
+
+
+    <!-- ================= COURSE MODAL ================= -->
+
+    <div class="course-modal" id="courseModal">
+
+      <div class="modal-box">
+
+        <button class="modal-close" onclick="closeCourse()">
+          ×
+        </button>
+
+        <div id="modalIcon" class="modal-icon">🌐</div>
+
+        <span id="modalTag" class="course-tag">
+          COURSE
+        </span>
+
+        <h2 id="modalTitle">
+          Course
+        </h2>
+
+        <p id="modalDescription"></p>
+
+        <h3>Deep Course Modules</h3>
+
+        <ul id="modalModules"></ul>
+
+        <div class="modal-actions">
+
+          <a
+            href="#contact"
+            class="btn primary"
+            onclick="closeCourse()"
+          >
+            Discuss Course →
+          </a>
+
+          <button
+            class="btn secondary"
+            onclick="closeCourse()"
+          >
+            Close
+          </button>
+
+        </div>
+
+      </div>
+
+    </div>
+
+
+    <!-- ================= CONTACT ================= -->
+
+    <section id="contact" class="section contact-section">
+
+      <div class="section-title center">
+
+        <p class="eyebrow">CONTACT</p>
+
+        <h2>Let's connect.</h2>
+
+        <p>
+          For networking, IT learning,
+          technology projects and collaboration.
+        </p>
+
+      </div>
+
+
+      <div class="contact-grid">
+
+
+        <div class="contact-info">
+
+          <div class="contact-item">
+
+            <div class="contact-icon">✉️</div>
+
+            <div>
+              <strong>Email</strong>
+              <a href="mailto:bizimanafabrice096@gmail.com">
+                bizimanafabrice096@gmail.com
+              </a>
+            </div>
+
+          </div>
+
+
+          <div class="contact-item">
+
+            <div class="contact-icon">💬</div>
+
+            <div>
+              <strong>WhatsApp</strong>
+              <a
+                href="https://wa.me/250794513444"
+                target="_blank"
+              >
+                0794513444
+              </a>
+            </div>
+
+          </div>
+
+
+          <div class="contact-item">
+
+            <div class="contact-icon">📍</div>
+
+            <div>
+              <strong>Location</strong>
+              <span>
+                Rwamagana, Mwulire, Rwanda
+              </span>
+            </div>
+
+          </div>
+
+
+          <div class="social-links">
+
+            <a
+              href="https://www.facebook.com/"
+              target="_blank"
+              title="Facebook"
+            >
+              f
+            </a>
+
+            <a
+              href="https://www.instagram.com/bizimana_fabrice/"
+              target="_blank"
+              title="Instagram"
+            >
+              ◎
+            </a>
+
+            <a
+              href="https://www.linkedin.com/in/bizimanait/"
+              target="_blank"
+              title="LinkedIn"
+            >
+              in
+            </a>
+
+          </div>
+
+        </div>
+
+
+        <form class="contact-form" id="contactForm">
+
+          <h3>Send a Message</h3>
+
+          <label>
+            Your Name
+            <input
+              type="text"
+              id="name"
+              required
+              placeholder="Enter your name"
+            >
+          </label>
+
+          <label>
+            Your Email
+            <input
+              type="email"
+              id="email"
+              required
+              placeholder="your@email.com"
+            >
+          </label>
+
+          <label>
+            Message
+            <textarea
+              id="message"
+              rows="5"
+              required
+              placeholder="Write your message..."
+            ></textarea>
+          </label>
+
+          <button
+            type="submit"
+            class="btn primary"
+          >
+            Prepare Email →
+          </button>
+
+          <p id="formMessage"></p>
+
+        </form>
+
+      </div>
+
+    </section>
+
+  </main>
+
+
+  <!-- ================= FOOTER ================= -->
+
+  <footer>
+
+    <div class="footer-logo">
+      BIZIMANA ADVANCED PORTFOLIO
+    </div>
+
+    <p>
+      Networking • Internet Technology • Wireless • CCTV • Programming
+    </p>
+
+    <div class="footer-links">
+
+      <a href="#home">Home</a>
+      <a href="#about">About</a>
+      <a href="#courses">Courses</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+
+    </div>
+
+    <small>
+      © 2026 Bizimana Fabrice. All Rights Reserved.
+    </small>
+
+  </footer>
+
+
+  <script src="script.js"></script>
+
+</body>
+</html>
